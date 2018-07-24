@@ -5,6 +5,7 @@ git clone -b https://github.com/TeamMango/cavatica.git
 
 #build docker file
 #docker build -t user/dockerfilename .
+sudo docker build -t griffin/dockerfile .
 
 #test if image is built
 
