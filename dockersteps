@@ -1,0 +1,10 @@
+#create jetstream instance
+
+#clone repo with Dockerfile
+git clone -b https://github.com/TeamMango/cavatica.git
+
+#build docker file
+#docker build -t user/dockerfilename .
+
+#test if image is built
+
