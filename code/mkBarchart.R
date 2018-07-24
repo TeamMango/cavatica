@@ -15,6 +15,7 @@ if(length(args)<2){
 
 # ===== Libraries
 
+.libPaths(c(Sys.getenv("R_LIBS_USER"), .Library, .Library.site, paste(getwd(), "/library", sep="")))
 # ----- check.packages | Smith Danielle, https://gist.github.com/smithdanielle/9913897
 check.packages <- function(pkg){
     new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
