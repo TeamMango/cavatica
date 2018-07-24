@@ -8,4 +8,4 @@ git clone -b docker_implementation https://github.com/TeamMango/cavatica.git
 sudo docker build -t griffin/dockerfile .
 
 #test if image is built
-
+docker run test dockerfile 
