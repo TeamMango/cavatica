@@ -1,6 +1,6 @@
 #create jetstream instance
 
-#clone repo with Dockerfile
+#clone repo with Dockerfile from the branch
 git clone -b docker_implementation https://github.com/TeamMango/cavatica.git
 
 #build docker file
@@ -8,4 +8,9 @@ git clone -b docker_implementation https://github.com/TeamMango/cavatica.git
 sudo docker build -t griffin/dockerfile .
 
 #test if image is built
-docker run test dockerfile 
+sudo docker images
+sudo docker run -it username/docekrfile #e.g. sudo docker run -it ekalhor/docekrfile
+# it will give you access to the container
+# in the container command:
+ls
+#you should be able to see Cytoscape_pmc.png, Neo4j_pm.png, Cytoscape_pm.png , and Neo4j_pmc.png
