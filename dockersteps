@@ -12,7 +12,7 @@ sudo docker build -t user/dockerfile .
 
 #test if image is built
 sudo docker images
-sudo docker run -it username/docekrfile #e.g. sudo docker run -it ekalhor/docekrfile
+sudo docker run -it username/dockerfile #e.g. sudo docker run -it ekalhor/docekrfile
 # it will give you access to the container
 # in the container command:
 ls
