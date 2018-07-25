@@ -3,7 +3,10 @@
 #clone repo with Dockerfile from the branch
 git clone -b docker_implementation https://github.com/TeamMango/cavatica.git
 
-#build docker file
+#move into directory where dockerfile is
+#cd cavatica
+
+#build dockerfile
 #docker build -t user/dockerfilename .
 sudo docker build -t griffin/dockerfile .
 
