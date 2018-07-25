@@ -10,4 +10,7 @@ FROM ubuntu:18.04
 	RUN ../../code/script.sh
 	
 	LABEL author="Jennifer Chang"
+	LABEL title="Cavatica: A pipeline for identifying author adoption trends among software or methods"
+	LABEL doi="10.1109/BIBM.2017.8217990"
+
 	
