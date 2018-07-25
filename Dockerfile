@@ -12,5 +12,7 @@ FROM ubuntu:18.04
 	LABEL author="Jennifer Chang"
 	LABEL title="Cavatica: A pipeline for identifying author adoption trends among software or methods"
 	LABEL doi="10.1109/BIBM.2017.8217990"
+	LABEL last-update="2018-07-25"
+
 
 	
