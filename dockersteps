@@ -12,8 +12,12 @@ sudo docker build -t user/dockerfile .
 
 #test if image is built
 sudo docker images
-sudo docker run -it username/dockerfile #e.g. sudo docker run -it ekalhor/docekrfile
-# it will give you access to the container
-# in the container command:
-ls
+sudo docker run -it username/dockerfile #e.g. sudo docker run -it ekalhor/dockerfile
+
+#view metadata in dockerfile
+docker inspect user/dockerfile
+
+#access the container
 #you should be able to see Cytoscape_pmc.png, Neo4j_pm.png, Cytoscape_pm.png , and Neo4j_pmc.png
+ls
+
