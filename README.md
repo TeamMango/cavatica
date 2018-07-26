@@ -23,7 +23,6 @@ Here is a basic example of running the Docker file.
 ```
 cd cavatica
 sudo docker build -t username/dockerfile .
-
 ```
 
 This will create tabular files (list of papers `Neo4j_papers_pm.tsv` and list of authors `Neo4j_authors_pm.tsv`). Open the png files `Neo4j_pm.png` to see a barchart of the number of papers by year.
