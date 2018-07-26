@@ -3,30 +3,7 @@
 **Author**: Team Mango -- Will Sutherland, Ashley Griffin, Elmira Kalhor, and Chola Chhetri  | **Initial Commit**: July 2018 
 <p style="text-align: center;">***** This is a reprodcution of Cavatica by Team Mango at the Cyber Carpnetry 2018 *****</p>
 
-In order to see a description of Cavatica and its outputs see [here](https://www.google.com)
-
-
-## Cavatica [by original author Jennifer Chang]  
-Code and pipeline for fetching PubMed and PubMed Central data and co-author network analysis. This tool can be used to identify author trends among several search terms. 
-
-An example, I've used these scripts to do a multi-network analysis of network analysis papers and their software. 
-[Wiki Page Here](https://github.com/incertae-sedis/cavatica/wiki)
-
-<img src="https://github.com/incertae-sedis/cavatica/blob/master/IMG/Adder.png" width="600" alt="Added">
-
-The name comes from Charlotte's Web since her full name was Charlotte A. Cavatica. Although Cavatica also refers to barn spider.
-
-## Pipeline
-
-<p style="text-align: center;">***** Cavatica pipeline has been modified so no longer relies on Ebot. *****</p>
-
-<img src="https://github.com/incertae-sedis/cavatica/blob/master/IMG/plan.png" width="600" alt="Plan">
-
-<!--
-[List of Entrez Databases](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/einfo.fcgi)
-
-[EBot](http://www.ncbi.nlm.nih.gov/Class/PowerTools/eutils/ebot/ebot.cgi)
--->
+In order to see a description of Cavatica and its outputs see [here](https://github.com/incertae-sedis/cavatica)
 
 ## Dependencies
 
