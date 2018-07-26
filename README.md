@@ -7,10 +7,7 @@
 ---
 ## Dependencies
 
-* Some type of Linux Terminal where you can run Bash. (Cygwin if you're on Windows. Terminal already preinstalled on Mac)
-* R (check if installed by typing Rscript --version)
-* perl (check if installed by typing perl --version)
-* Mango Graph Studio for multi-network analysis
+* Docker!
 
 ## Installation
 
