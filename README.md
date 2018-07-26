@@ -7,7 +7,7 @@
 ---
 ## Dependencies
 
-* Docker!
+* Docker
 
 ## Installation
 
