@@ -29,19 +29,10 @@ This will create tabular files (list of papers `Neo4j_papers_pm.tsv` and list of
 
 to see the contents in the output folder:
 ```
-sudo docker run -it ekalhor/dockerfile
+sudo docker run -it username/dockerfile
 ```
+get a list of the output files root**/cavatica/data/output#:
 
-<table>
-<tr>
-<td>
-
-
-</td>
-</tr>
-</table>
-
-## Publications
-
-* J. Chang and H. Chou, "[Cavatica: A pipeline for identifying author adoption trends among software or methods](https://www.computer.org/csdl/proceedings/bibm/2017/3050/00/08217990-abs.html)," 2017 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), Kansas City, MO, USA, 2017, pp. 2145-2150.
-
+```
+ls
+```
