@@ -6,7 +6,8 @@
 ---
 ## Dependencies
 
-Since this is a Docker of Cavatica, the only dependency is *Docker*.</>
+Since this is a Docker of Cavatica, the only dependency is *Docker*.
+
 Although, in order to rub docker command, *Sudo* is required, if you don't have Sudo switch to Signularity instead of Docker.
 
 ## Installation
