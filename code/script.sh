@@ -8,7 +8,7 @@ set -e
 set -u
 
 # Place search terms in config.txt
-ARR=$(grep -v "^term" config.txt |awk -F',' '{print $1}'|tr '\n' ' ')
+ARR=(`grep -v "^term" config.txt |awk -F',' '{print $1}'|tr '\n' ' '`)
 CODEDIR=../../code
 
 touch logfile.txt
