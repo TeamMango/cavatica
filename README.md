@@ -7,7 +7,7 @@
 ---
 ## Dependencies
 
-* Docker
+Since this is a Docker of Cavatica, the only dependency is Docker.
 
 ## Installation
 
