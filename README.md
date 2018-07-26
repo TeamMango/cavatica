@@ -12,7 +12,7 @@ Since this is a Docker of Cavatica, the only dependency is Docker.
 ## Installation
 
 ```
-git clone https://github.com/incertae-sedis/cavatica.git
+git clone -b docker_implementation https://github.com/TeamMango/cavatica.git
 ```
 
 ## Basic Example
