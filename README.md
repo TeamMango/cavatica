@@ -3,7 +3,7 @@
 **Author**: Team Mango -- Will Sutherland, Ashley Griffin, Elmira Kalhor, and Chola Chhetri  | **Initial Commit**: July 2018 
 <p style="text-align: center;">***** This is a reprodcution of Cavatica by Team Mango at the Cyber Carpnetry 2018 *****</p>
 
-In order to see a description of Cavatica and its outputs see [here](https://github.com/incertae-sedis/cavatica)
+### In order to see a description of Cavatica and its outputs see [here](https://github.com/incertae-sedis/cavatica)
 
 ## Dependencies
 
