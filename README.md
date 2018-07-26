@@ -3,6 +3,9 @@
 **Author**: Team Mango -- Will Sutherland, Ashley Griffin, Elmira Kalhor, and Chola Chhetri  | **Initial Commit**: July 2018 
 <p style="text-align: center;">***** This is a reprodcution of Cavatica by Team Mango at the Cyber Carpnetry 2018 *****</p>
 
+In order to see a description of Cavatica and its outputs see [here](https://www.google.com)
+
+
 ## Cavatica [by original author Jennifer Chang]  
 Code and pipeline for fetching PubMed and PubMed Central data and co-author network analysis. This tool can be used to identify author trends among several search terms. 
 
