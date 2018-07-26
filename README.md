@@ -17,10 +17,10 @@ git clone -b docker_implementation https://github.com/TeamMango/cavatica.git
 
 ## Basic Example
 
-Here is a basic example fetching PubMed and PMC papers containing the word "Neo4j" and "Cytoscape". 
+Here is a basic example of running the Docker file. 
 
 ```
-cd cavatica/data
+cd cavatica
 mkdir test
 cd test
 echo "Neo4j" > config.txt
