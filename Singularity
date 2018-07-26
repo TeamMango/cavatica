@@ -1,9 +1,15 @@
 Bootstrap: docker
 From: ubuntu
+%files
+   /libpng12-0_1.2.54-1ubuntu1.1_amd64.deb
+   Mango /usr/bin
 %post
     apt-get -y update
     apt-get install -y git
     git clone -b singularity_implementation https://github.com/TeamMango/cavatica.git
+    apt-get install -y libglu1-mesa
+    apt-get install -y /libpng12-0_1.2.54-1ubuntu1.1_amd64.deb
+    apt-get install -y libgtk2.0-0
     chmod -R go+rw /cavatica/ 
     DEBIAN_FRONTEND=noninteractive apt-get install -y r-base 
     echo "install.packages(\"ggplot2\", repos=\"https://cran.rstudio.com\")" | R --no-save
@@ -13,5 +19,8 @@ From: ubuntu
     ln -s ../test/*.tsv .
     ../../code/script.sh
     find /cavatica/data/output -type l | xargs rm
+    Mango run "pubmed.gel"
+    ../..code/script.sh
+    Mango run "pmc.gel"
 %environment
     export PATH=/:$PATH
