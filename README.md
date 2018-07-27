@@ -8,7 +8,11 @@
 The only dependency is *Singularity*.
 
 ## Installation
-
+ git clone repo with singularity file
+```
+-git clone -b singularity_implementation https://github.com/TeamMango/cavatica.git
+```
+Run singularity
 ```
 singularity pull shub://TeamMango/cavatica:latest`
 mkdir output
