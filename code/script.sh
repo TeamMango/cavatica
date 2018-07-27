@@ -6,9 +6,11 @@
 set -e
 set -u
 
+ln -s /cavatica/data/test/*.tsv .
+
 # Place search terms in config.txt
-ARR=(`grep -v "^term" config.txt |awk -F',' '{print $1}'|tr '\n' ' '`)
-CODEDIR=../../code
+ARR=(`grep -v "^term" /cavatica/output/config.txt |awk -F',' '{print $1}'|tr '\n' ' '`)
+CODEDIR=../code
 
 touch logfile.txt
 date
