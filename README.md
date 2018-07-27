@@ -5,31 +5,13 @@
 ---
 ## Dependencies
 
-Since this is a Docker of Cavatica, the only dependency is *Docker*.
-Although, in order to rub docker command, *Sudo* is required, if you don't have *Sudo* switch to *Signularity* instead of Docker.
-Another alternative is to run a cloud instance, e.g. *JetStream*
+The only dependency is *Singularity*.
 
 ## Installation
 
 ```
-git clone -b docker_implementation https://github.com/TeamMango/cavatica.git
-```
-
-## Basic Example
-
-Here is a basic example of running the Docker file. 
-
-```
-cd cavatica
-sudo docker build -t username/dockerfile .
-```
-
-to see the contents in the output folder:
-```
-sudo docker run -it username/dockerfile
-```
-get a list of the output files root**/cavatica/data/output#:
-
-```
-ls
+singularity pull shub://TeamMango/cavatica:latest`
+mkdir output
+echo "SEARCHTERM" > ./output/config.txt
+singularity run --bind output:/cavatica/data/output TeamMango-cavatica-master-latest.simg
 ```
