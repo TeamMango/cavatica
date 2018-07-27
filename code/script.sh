@@ -93,3 +93,5 @@ awk -F'\t' '{print $4}' trends-temp2.txt |sort | uniq -c > trends-temp3.txt
 perl ${CODEDIR}/hack.pl trends-temp3.txt >> logfile.txt
 perl ${CODEDIR}/hack.pl trends-temp3.txt
 perl ${CODEDIR}/hack.pl trends-temp3.txt > trends_pmc.txt
+
+find /cavatica/data/output -type l | xargs rm

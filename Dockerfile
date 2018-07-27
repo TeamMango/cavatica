@@ -5,7 +5,7 @@ FROM ubuntu:18.04
 	RUN DEBIAN_FRONTEND=noninteractive apt-get install -y r-base 
 	WORKDIR /cavatica/output
 	ENV PATH=/:$PATH	
-        ENTRYPOINT ["/cavatica/code/script.sh"]
+	CMD ["../code/script.sh"]
 
 	LABEL author="Jennifer Chang"
 	LABEL title="Cavatica: A pipeline for identifying author adoption trends among software or methods"
