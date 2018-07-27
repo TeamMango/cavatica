@@ -6,8 +6,6 @@
 set -e
 set -u
 
-ln -s /cavatica/data/test/*.tsv .
-
 # Place search terms in config.txt
 ARR=(`grep -v "^term" /cavatica/output/config.txt |awk -F',' '{print $1}'|tr '\n' ' '`)
 CODEDIR=../code
@@ -93,5 +91,3 @@ awk -F'\t' '{print $4}' trends-temp2.txt |sort | uniq -c > trends-temp3.txt
 perl ${CODEDIR}/hack.pl trends-temp3.txt >> logfile.txt
 perl ${CODEDIR}/hack.pl trends-temp3.txt
 perl ${CODEDIR}/hack.pl trends-temp3.txt > trends_pmc.txt
-
-find /cavatica/data/output -type l | xargs rm
