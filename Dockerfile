@@ -5,7 +5,8 @@ FROM ubuntu:18.04
 	RUN DEBIAN_FRONTEND=noninteractive apt-get install -y r-base && echo "install.packages(\"ggplot2\", repos=\"https://cran.rstudio.com\")" | R --no-save && echo "install.packages(\"readr\", repos=\"https://cran.rstudio.com\")" | R --no-save
 	WORKDIR /cavatica/output 
 	ENV PATH=/:$PATH
-	CMD ln -sf cavatica/data/test/*.tsv . && ../code/script.sh && find /cavatica/data/output -type l | xargs rm
+	CMD ["ln -s cavatica/data/test/*.tsv ."]
+	CMD ["../code/script.sh"]
 		
 	LABEL author="Jennifer Chang"
 	LABEL title="Cavatica: A pipeline for identifying author adoption trends among software or methods"
